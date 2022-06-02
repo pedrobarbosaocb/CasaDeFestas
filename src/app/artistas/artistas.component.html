@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col" *ngFor = "let art of artistas" style="padding-top:40px;">
+    <div class="card bg-dark" style="width: 18rem;">
+      <img src="{{ art.img }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ art.nome }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
